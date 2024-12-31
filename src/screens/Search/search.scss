@@ -1,0 +1,42 @@
+@import "../../styles/colors";
+
+.search {
+  width: 100%;
+
+  .search-input {
+    border-radius: 15px;
+    background-color: $lightBgColor;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+
+    input {
+      border-radius: 40px;
+    }
+
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  .result-section {
+    margin-top: 50px;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+  .search {
+    .search-input {
+      width: 80%;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .search {
+    .search-input {
+      width: 100%;
+    }
+  }
+}
